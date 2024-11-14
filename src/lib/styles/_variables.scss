@@ -1,0 +1,25 @@
+/*
+* Breakpoints
+*/
+$mobile-landscape: 568px;
+$tablet: 768px;
+$desktop: 992px;
+
+/*
+* Map for breakpoints
+*/
+$breakpoints: (
+    "small": (min-width: $mobile-landscape,
+    ),
+    "medium": (min-width: $tablet,
+    ),
+    "large": (min-width: $desktop,
+    ),
+);
+
+$font-family: 'Oswald', sans-serif;
+$color-base: #444843;
+$color-base-muted: #697067;
+$color-base-light: #d4d8d6;
+$color-link-default: #1c971c;
+$color-link-hover: #30af30;
