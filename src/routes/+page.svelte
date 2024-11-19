@@ -1,16 +1,19 @@
 <script>
-  import GlobalStyles from '$lib/GlobalStyles.svelte';
+  import SEO from '$lib/SEO.svelte';
+  import Body from '$lib/Body.svelte';
   import Header from '$lib/Header.svelte';
   import Main from '$lib/Main.svelte';
-  import Avatar from '$lib/Avatar/Avatar.svelte';
+  import Avatar from '$lib/Avatar.svelte';
   import Presentation from '$lib/Presentation.svelte';
   import Footer from '$lib/Footer.svelte';
 </script>
 
-<GlobalStyles />
-<Header />
-<Main>
-  <Avatar />
-  <Presentation />
-</Main>
-<Footer />
+<SEO />
+<Body>
+  <Header />
+  <Main>
+    <Avatar />
+    <Presentation />
+  </Main>
+  <Footer />
+</Body>
