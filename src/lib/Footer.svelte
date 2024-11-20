@@ -5,7 +5,7 @@
 </script>
 
 <p>
-  <span>© {year}</span> by Karolis G. Made with ❤️ powered by
+  <span>© {year}</span> by Karolis G. Made with <i>❤️</i> powered by
   <a href="https://svelte.dev/" title="SvelteKit"><img src={sveltekit} alt="SvelteKit" /></a>
 </p>
 
@@ -30,13 +30,19 @@
       margin-right: 0.3rem;
     }
 
+    i {
+      margin-left: 0.4rem;
+      margin-right: 0.4rem;
+      font-style: normal;
+    }
+
     a {
       border: none;
       text-decoration: none;
       padding: 0;
 
       img {
-        margin-left: 0.2rem;
+        margin-left: 0.3rem;
         height: 22px;
       }
     }
