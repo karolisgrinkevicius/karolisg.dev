@@ -21,8 +21,8 @@
   <img src="https://deploy-badge.vercel.app/?url=https://www.karolisg.dev" height="22" valign="middle" />
   <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_performance.svg" height="22" valign="middle" />
   <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-practices.svg" height="22" valign="middle" />
-  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-accessibility.svg" height="22" valign="middle" />
-  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-seo.svg" height="22" valign="middle" />
+  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse-accessibility.svg" height="22" valign="middle" />
+  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse-seo.svg" height="22" valign="middle" />
 </div>
 
 <h2>🙋‍♂️ About me</h2>
