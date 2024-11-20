@@ -1,6 +1,7 @@
 {
   "name": "Karolis Grinkevičius",
   "short_name": "karolisg.dev",
+  "description": "Karolis Grinkevičius Personal Website.",
   "id": "https://www.karolisg.dev/",
   "theme_color": "#00ff00",
   "background_color": "#ffffff",
