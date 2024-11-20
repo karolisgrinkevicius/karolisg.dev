@@ -1,38 +1,32 @@
-# sv
+<p align="center">
+  <a href="https://www.karolisg.dev" style="display: block;">
+    <img src="https://res.cloudinary.com/dzm0tz8vx/image/upload/c_fill,g_auto,w_300/v1731608929/bc17e3f2091ff48ff4b3d8e3433e947f_ndgrxh.png" height="300" alt="" />
+  </a>
+  <span style="font-weight: bold; color: #697067;">Build with</span> <a href="https://svelte.dev/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Svelte-kit-horizontal.svg/320px-Svelte-kit-horizontal.svg.png" height="40" alt="" style="vertical-align: middle;" /></a>
+</p>
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<h1 align="center">🔗 <a href="https://www.karolisg.dev" style="color: #000000; text-decoration: none;">karolisg.dev</a></h1>
 
-## Creating a project
+<h2>🙋‍♂️ About me</h2>
 
-If you're seeing this, you've probably already done this step. Congrats!
+<pre>
+  <code>
+    OS: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" height="18" style="vertical-align: text-bottom;" />
 
-```bash
-# create a new project in the current directory
-npx sv create
+    Languages: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="18" style="vertical-align: text-bottom;" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="18" style="vertical-align: text-bottom;" />
 
-# create a new project in my-app
-npx sv create my-app
-```
+    Tools: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="18" style="vertical-align: text-bottom;" title="NodeJS" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg" height="18" style="vertical-align: text-bottom;" title="GraphQL" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-plain.svg" height="18" style="vertical-align: text-bottom;" title="VSCode" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/algolia/algolia-original.svg" height="18" style="vertical-align: text-bottom;" title="Algolia" />
 
-## Developing
+    Frameworks: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="18" style="vertical-align: text-bottom;" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" height="18" style="vertical-align: text-bottom;" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" height="18" style="vertical-align: text-bottom;" />
+  </code>
+</pre>
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+<h2>👨‍💻 Development</h2>
 
-```bash
-npm run dev
+<pre>
+  <code><span style="color: #d4d8d6;">></span> npm run dev</code>
+</pre>
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+<h2>🚀 Deployment</h2>
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+<p>Automatic deployments on changes in <code>master</code> branch via <a href="https://vercel.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" height="60" style="vertical-align: middle;" /></a>.</p>
