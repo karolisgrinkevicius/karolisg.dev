@@ -17,7 +17,13 @@
 <div align="center">
   <img src="https://img.shields.io/badge/sveltekit-%23ff3e00.svg?style=for-the-badge&logo=svelte&logoColor=white" height="22" valign="middle" />
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" height="22" valign="middle" />
+  <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" height="22" valign="middle" />
   <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" height="22" valign="middle" />
+</div>
+
+<br />
+
+<div align="center">
   <img src="https://deploy-badge.vercel.app/?url=https://www.karolisg.dev" height="22" valign="middle" />
   <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_performance.svg" height="22" valign="middle" />
   <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-practices.svg" height="22" valign="middle" />
