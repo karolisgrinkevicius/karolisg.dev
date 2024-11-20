@@ -12,34 +12,39 @@
 
 <br />
 
-<h1 align="center">🔗 <a href="https://www.karolisg.dev" target="_blank">karolisg.dev</a></h1>
+<h1 align="center">🔗 <a href="https://www.karolisg.dev" target="_blank">www.karolisg.dev</a></h1>
 
 <div align="center">
-  ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
-  ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-  ![Vercel](https://deploy-badge.vercel.app/?url=https://www.karolisg.dev)
+  <img src="https://img.shields.io/badge/sveltekit-%23ff3e00.svg?style=for-the-badge&logo=svelte&logoColor=white" height="22" valign="middle" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" height="22" valign="middle" />
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" height="22" valign="middle" />
+  <img src="https://deploy-badge.vercel.app/?url=https://www.karolisg.dev" height="22" valign="middle" />
+  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_performance.svg" height="22" valign="middle" />
+  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-practices.svg" height="22" valign="middle" />
+  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-accessibility.svg" height="22" valign="middle" />
+  <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-seo.svg" height="22" valign="middle" />
 </div>
 
 <h2>🙋‍♂️ About me</h2>
 
 <pre>
   <code>
-    OS: <img src="./readme/icons/apple-original.svg" height="18" style="vertical-align: text-bottom;" />
+    OS: <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/apple-original.svg" height="18" />
 
-    Languages: <img src="./readme/icons/typescript-original.svg" height="18"> <img src="./readme/icons/javascript-original.svg" height="18" />
+    Languages: <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/typescript-original.svg" height="18"> <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/javascript-original.svg" height="18" />
 
-    Tools: <img src="./readme/icons/nodejs-original.svg" height="18" title="NodeJS" /> <img src="./readme/icons/graphql-plain.svg" height="18" title="GraphQL" /> <img src="./readme/icons/vscode-plain.svg" height="18" title="VSCode" /> <img src="./readme/icons/algolia-original.svg" height="18" title="Algolia" />
+    Tools: <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/nodejs-original.svg" height="18" title="NodeJS" /> <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/graphql-plain.svg" height="18" title="GraphQL" /> <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/vscode-plain.svg" height="18" title="VSCode" /> <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/algolia-original.svg" height="18" title="Algolia" />
 
-    Frameworks: <img src="./readme/icons/react-original.svg" height="18" /> <img src="./readme/icons/angular-original.svg" height="18" /> <img src="./readme/icons/svelte-original.svg" height="18" />
+    Frameworks: <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/react-original.svg" height="18" /> <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/angular-original.svg" height="18" /> <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/svelte-original.svg" height="18" />
   </code>
 </pre>
 
 <h2>👨‍💻 Development</h2>
 
 <pre>
-  <code><span style="color: #d4d8d6;">></span> npm run dev</code>
+  <code>npm run dev</code>
 </pre>
 
 <h2>🚀 Deployment</h2>
 
-<p>Automatic deployments on changes in <code>master</code> branch via <a href="https://vercel.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" height="60" style="vertical-align: middle;" /></a>.</p>
+<p>Automatic deployments on changes in <code>master</code> branch via <a href="https://vercel.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg" height="60" valign="middle" /></a>.</p>
