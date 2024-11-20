@@ -4,21 +4,17 @@
   const year = new Date().getFullYear();
 </script>
 
-<p>
-  <span>© {year}</span> by Karolis G. Made with <i>❤️</i> powered by
-  <a href="https://svelte.dev/" title="SvelteKit"><img src={sveltekit} alt="SvelteKit" /></a>
-</p>
+<footer>
+  <p>
+    <span>© {year}</span> by Karolis G. Made with <i>❤️</i> powered by
+    <a href="https://svelte.dev/" title="SvelteKit"><img src={sveltekit} alt="SvelteKit" /></a>
+  </p>
+</footer>
 
 <style lang="scss">
-  p {
-    display: flex;
-    align-items: flex-start;
+  footer {
     grid-row: 3;
     grid-column: 1 / span all;
-    font-size: 0.85rem;
-    font-weight: 300;
-    letter-spacing: 0.05rem;
-    color: var(--color-base-muted);
     margin-left: auto;
     margin-right: auto;
 
@@ -26,24 +22,34 @@
       margin-left: 0;
     }
 
-    span {
-      margin-right: 0.3rem;
-    }
+    p {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      font-weight: 300;
+      letter-spacing: 0.05rem;
+      color: var(--color-base-muted);
 
-    i {
-      margin-left: 0.4rem;
-      margin-right: 0.4rem;
-      font-style: normal;
-    }
+      span {
+        margin-right: 0.3rem;
+      }
 
-    a {
-      border: none;
-      text-decoration: none;
-      padding: 0;
+      i {
+        margin-left: 0.4rem;
+        margin-right: 0.4rem;
+        font-style: normal;
+      }
 
-      img {
-        margin-left: 0.3rem;
-        height: 22px;
+      a {
+        border: none;
+        text-decoration: none;
+        padding: 0;
+
+        img {
+          margin-left: 0.3rem;
+          height: 22px;
+        }
       }
     }
   }
