@@ -63,4 +63,5 @@ jobs:
           label: Test Coverage
           message: ${{ env.COVERAGE }}
           color: green
+          logoColor: white
           namedLogo: vitest
