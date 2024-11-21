@@ -25,13 +25,13 @@
 <br />
 
 <div align="center">
+  <img src="https://deploy-badge.vercel.app/vercel/karolisg-dev" height="22" valign="middle" />
   <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/karolisgrinkevicius/729d10e4a538f1645804675d91033f14/raw/dynamic-badges-action.json" height="22" valign="middle" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://deploy-badge.vercel.app/?url=https://www.karolisg.dev" height="22" valign="middle" />
   <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_performance.svg" height="22" valign="middle" />
   <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_best-practices.svg" height="22" valign="middle" />
   <img src="https://raw.githubusercontent.com/karolisgrinkevicius/karolisg.dev/refs/heads/master/readme/icons/lighthouse/lighthouse_accessibility.svg" height="22" valign="middle" />
