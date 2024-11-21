@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitest/config';
 import { sveltekit } from '@sveltejs/kit/vite';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [sveltekit()],
   css: {
     preprocessorOptions: {
@@ -12,5 +12,18 @@ export default defineConfig({
       }
     }
   },
-  test: { include: ['src/**/*.{test,spec}.{js,ts}'] }
-});
+  test: {
+    include: ['src/**/*.{test,spec}.{js,ts}'],
+    setupFiles: 'src/vitest/setupTests.ts',
+    coverage: {
+      include: ['src/lib', 'src/routes'],
+      exclude: ['src/lib/service-worker', 'src/**/*.{test,spec}.{js,ts}']
+    },
+    environment: 'jsdom',
+    restoreMocks: true,
+    globals: true
+  },
+  resolve: {
+    conditions: mode === 'test' ? ['browser'] : []
+  }
+}));

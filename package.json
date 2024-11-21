@@ -10,8 +10,9 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "format": "prettier --write .",
     "lint": "prettier --check --write . && eslint .",
-    "test:unit": "vitest",
-    "test": "npm run test:unit -- --run"
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "test:ci": "vitest run --coverage.enabled --coverage.reporter='text-summary'"
   },
   "devDependencies": {
     "@fontsource-variable/oswald": "^5.1.0",
@@ -20,12 +21,16 @@
     "@sveltejs/adapter-vercel": "^5.4.7",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/svelte": "^5.2.6",
     "@types/eslint": "^9.6.0",
     "@unpic/svelte": "^0.0.55",
+    "@vitest/coverage-v8": "^2.1.5",
     "eslint": "^9.7.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.36.0",
     "globals": "^15.0.0",
+    "jsdom": "^25.0.1",
     "normalize.css": "^8.0.1",
     "prettier": "^3.3.2",
     "prettier-plugin-svelte": "^3.2.6",

@@ -5,10 +5,12 @@
 <nav>
   <ul>
     <li>
-      <a href="/"><span>&lt;</span><i>karolis g.</i><span>&sol;&gt;</span></a>
+      <a href="/" title="Karolis Grinkevičius"
+        ><span>&lt;</span><i>karolis g.</i><span>&sol;&gt;</span></a
+      >
     </li>
   </ul>
-  <Social />
+  <Social testId="social" />
 </nav>
 
 <style lang="scss">

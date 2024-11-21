@@ -1,14 +1,17 @@
 <script lang="ts">
   import linkedIn from './assets/icons/linkedin.svg';
   import github from './assets/icons/github.svg';
+  import type { PropsWithTestId } from './types';
 
   const items = [
     { url: 'https://www.linkedin.com/in/karolisg/', title: 'LinkedIn', img: linkedIn },
     { url: 'https://github.com/karolisgrinkevicius', title: 'GitHub', img: github }
   ];
+
+  const { testId }: PropsWithTestId = $props();
 </script>
 
-<ul>
+<ul data-testid={testId}>
   {#each items as item}
     <li>
       <a href={item.url} title={item.title} aria-label={item.title}
