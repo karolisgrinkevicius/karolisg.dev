@@ -58,7 +58,7 @@ jobs:
         uses: Schneegans/dynamic-badges-action@v1.7.0
         with:
           auth: ${{ secrets.GIST_SECRET }}
-          gistID: 550f6ee414a26e0c8eae7cb6af3c214e
+          gistID: 17249c86bf4979dae4557c04677f18ae
           filename: rollup-plugin-critical__${{ env.BRANCH }}.json
           label: Test Coverage
           message: ${{ env.COVERAGE }}
