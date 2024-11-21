@@ -11,10 +11,18 @@ describe('Footer', () => {
     render(Footer);
   });
 
-  it('renders copyright', () => {
-    const copyright = screen.getByText(new RegExp(mockedYear.toString()));
+  afterEach(() => {
+    vi.useRealTimers();
+  });
 
-    expect(copyright.parentElement).toHaveTextContent(
+  it('renders footer', () => {
+    expect(screen.getByRole('contentinfo')).toBeInTheDocument();
+  });
+
+  it('renders copyright', () => {
+    const copyright = screen.getByText(mockedYear);
+
+    expect(copyright.parentElement?.parentElement).toHaveTextContent(
       `© ${mockedYear} by Karolis G. Made with ❤️ powered by`
     );
   });

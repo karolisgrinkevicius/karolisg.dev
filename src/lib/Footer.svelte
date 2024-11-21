@@ -6,7 +6,7 @@
 
 <footer>
   <p>
-    <span>© {year}</span> by Karolis G. Made with <i>❤️</i> powered by
+    <span>© <date>{year}</date></span> by Karolis G. Made with <i>❤️</i> powered by
     <a href="https://svelte.dev/" title="SvelteKit"><img src={sveltekit} alt="SvelteKit" /></a>
   </p>
 </footer>

@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => ({
     include: ['src/**/*.{test,spec}.{js,ts}'],
     setupFiles: 'src/vitest/setupTests.ts',
     coverage: {
+      provider: 'istanbul',
       include: ['src/lib', 'src/routes'],
       exclude: ['src/lib/service-worker', 'src/**/*.{test,spec}.{js,ts}', 'src/lib/types']
     },
