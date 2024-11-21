@@ -14,7 +14,7 @@ describe('Header', () => {
     expect(screen.getByRole('link', { name: '< karolis g. />' })).toHaveAttribute('href', '/');
   });
 
-  it.only('renders social icons', () => {
+  it('renders social icons', () => {
     expect(screen.getByTestId('social')).toBeInTheDocument();
   });
 });
