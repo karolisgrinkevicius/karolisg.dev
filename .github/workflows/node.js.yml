@@ -59,7 +59,7 @@ jobs:
         with:
           auth: ${{ secrets.GIST_SECRET }}
           gistID: 17249c86bf4979dae4557c04677f18ae
-          filename: rollup-plugin-critical__${{ env.BRANCH }}.json
+          filename: dynamic-badges-action.json.json
           label: Test Coverage
           message: ${{ env.COVERAGE }}
           color: green
