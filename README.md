@@ -25,7 +25,7 @@
 <br />
 
 <div align="center">
-  ![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/karolisgrinkevicius/729d10e4a538f1645804675d91033f14/raw/dynamic-badges-action.json)
+  <img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/karolisgrinkevicius/729d10e4a538f1645804675d91033f14/raw/dynamic-badges-action.json" height="22" valign="middle" />
 </div>
 
 <br />
