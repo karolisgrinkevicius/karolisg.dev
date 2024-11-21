@@ -11,7 +11,7 @@ describe('Footer', () => {
     render(Footer);
   });
 
-  it('renders copyright', async () => {
+  it('renders copyright', () => {
     const copyright = screen.getByText(new RegExp(mockedYear.toString()));
 
     expect(copyright.parentElement).toHaveTextContent(
@@ -19,7 +19,7 @@ describe('Footer', () => {
     );
   });
 
-  it('renders sveltekit link with image', async () => {
+  it('renders sveltekit link with image', () => {
     const link = screen.getByRole('link', { name: 'SvelteKit' });
     const image = within(link).getByAltText('SvelteKit');
 

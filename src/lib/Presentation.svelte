@@ -3,7 +3,10 @@
   <span>Living in Lithuania <i>🇱🇹</i></span>
   <span>Exploring the universe <i>🌍</i></span>
   <span>Passioned for Web engineering <i>🕸️ 👨‍💻</i></span>
-  <span><a href="mailto:k.grinkevicius@gmail.com">Let's get in touch!</a></span>
+  <span
+    ><a href="mailto:k.grinkevicius@gmail.com" title="Let's get in touch!">Let's get in touch!</a
+    ></span
+  >
 </p>
 
 <style lang="scss">

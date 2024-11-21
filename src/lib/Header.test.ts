@@ -10,7 +10,7 @@ describe('Header', () => {
     expect(screen.getByRole('navigation')).toBeInTheDocument();
   });
 
-  it('renders logo', async () => {
+  it('renders logo', () => {
     expect(screen.getByRole('link', { name: '< karolis g. />' })).toHaveAttribute('href', '/');
   });
 

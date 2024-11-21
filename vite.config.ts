@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
     setupFiles: 'src/vitest/setupTests.ts',
     coverage: {
       include: ['src/lib', 'src/routes'],
-      exclude: ['src/lib/service-worker', 'src/**/*.{test,spec}.{js,ts}']
+      exclude: ['src/lib/service-worker', 'src/**/*.{test,spec}.{js,ts}', 'src/lib/types']
     },
     environment: 'jsdom',
     restoreMocks: true,

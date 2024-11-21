@@ -1,10 +1,10 @@
 import { render } from '@testing-library/svelte';
 
-import Body from './Body.svelte';
+import Main from './Main.svelte';
 
-describe('Body', () => {
+describe('Main', () => {
   beforeEach(() => {
-    render(Body, { children: vi.fn() });
+    render(Main, { children: vi.fn() });
   });
 
   it('renders child component', () => {

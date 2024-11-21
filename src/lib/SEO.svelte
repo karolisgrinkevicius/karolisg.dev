@@ -10,8 +10,8 @@
 <svelte:head>
   <title>{title}</title>
   <meta name="description" content={description} />
-  <meta property="og_site_name" content="'Example.com'" />
-  <meta property="og:url" content={`https://${site}`} />
+  <meta property="og_site_name" content={title} />
+  <meta property="og:url" content={`https://www.${site}`} />
   <meta property="og:type" content="website" />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />

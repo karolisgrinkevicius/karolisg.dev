@@ -7,11 +7,11 @@ describe('Social', () => {
     render(Social);
   });
 
-  it('renders list', async () => {
+  it('renders list', () => {
     expect(screen.getByRole('list')).toBeInTheDocument();
   });
 
-  it('renders linkedin link with icon', async () => {
+  it('renders linkedin link with icon', () => {
     const link = screen.getByLabelText('LinkedIn');
     const icon = within(link).getByRole('img', { name: 'LinkedIn' });
 
@@ -19,7 +19,7 @@ describe('Social', () => {
     expect(icon).toHaveAttribute('src', '/src/lib/assets/icons/linkedin.svg');
   });
 
-  it('renders github link with icon', async () => {
+  it('renders github link with icon', () => {
     const link = screen.getByLabelText('GitHub');
     const icon = within(link).getByRole('img', { name: 'GitHub' });
 
