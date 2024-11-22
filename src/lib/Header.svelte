@@ -5,7 +5,7 @@
 <nav>
   <ul>
     <li>
-      <a href="/" title="Karolis Grinkevičius"
+      <a href="https://www.karolisg.dev" title="Karolis Grinkevičius"
         ><span>&lt;</span><i>karolis g.</i><span>&sol;&gt;</span></a
       >
     </li>
