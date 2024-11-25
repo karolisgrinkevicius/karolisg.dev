@@ -34,10 +34,10 @@
         color: var(--color-base);
         border-bottom: none;
         padding-bottom: 0;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 700;
         text-transform: lowercase;
-        letter-spacing: -0.2rem;
+        letter-spacing: -0.15rem;
         text-wrap: nowrap;
 
         @media (min-width: $breakpoint-tablet) {
@@ -51,29 +51,35 @@
         }
 
         > span:first-of-type {
-          margin-right: 0.5rem;
+          margin-right: 1rem;
 
           @media (min-width: $breakpoint-tablet) {
-            margin-right: 1rem;
+            margin-right: 2rem;
           }
         }
 
         > span:last-of-type {
-          margin-left: 1rem;
+          margin-left: 0.3rem;
 
           @media (min-width: $breakpoint-tablet) {
-            margin-left: 1.5rem;
+            margin-left: 1rem;
           }
         }
 
         span:first-of-type,
         span:last-of-type {
-          font-size: 2rem;
-          font-family: cursive;
+          font-size: 4rem;
+          font-style: italic;
           color: var(--color-base-light);
-          font-weight: 300;
+          font-weight: 200;
+          vertical-align: middle;
+
           @media (min-width: $breakpoint-tablet) {
-            font-size: 4rem;
+            font-size: 6rem;
+          }
+
+          @media (min-width: $breakpoint-desktop) {
+            font-size: 7rem;
           }
         }
 

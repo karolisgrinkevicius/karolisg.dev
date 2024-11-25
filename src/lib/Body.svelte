@@ -18,10 +18,10 @@
 
   :global(body) {
     display: grid;
-    min-width: 360px;
+    min-width: calc($breakpoint-mobile - 2rem);
     max-width: 980px;
     min-height: calc(100vh - 2rem);
-    grid-template-columns: auto minmax(360px, 900px) 1fr;
+    grid-template-columns: auto minmax(calc($breakpoint-mobile - 2rem), 900px) 1fr;
     grid-template-rows: auto 1fr auto;
     font-family: var(--font-family);
     font-weight: 400;

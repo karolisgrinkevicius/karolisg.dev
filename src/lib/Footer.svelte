@@ -6,8 +6,13 @@
 
 <footer>
   <p>
-    <span>© <date>{year}</date></span> by Karolis G. Made with <i>❤️</i> powered by
-    <a href="https://svelte.dev/" title="SvelteKit"><img src={sveltekit} alt="SvelteKit" /></a>
+    <span><span>© <date>{year}</date></span> by Karolis G. Made with <i>❤️</i></span>
+    <span>
+      Powered by
+      <a href="https://svelte.dev/" title="SvelteKit">
+        <img src={sveltekit} alt="SvelteKit" />
+      </a>
+    </span>
   </p>
 </footer>
 
@@ -28,11 +33,21 @@
       flex-wrap: wrap;
       font-size: 0.85rem;
       font-weight: 300;
+      line-height: 2em;
       letter-spacing: 0.05rem;
       color: var(--color-base-muted);
 
-      span {
-        margin-right: 0.3rem;
+      > span {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        &:first-of-type {
+          @media (min-width: $breakpoint-tablet) {
+            margin-left: 0;
+            margin-right: 0.3rem;
+          }
+        }
       }
 
       i {
@@ -47,7 +62,7 @@
         padding: 0;
 
         img {
-          margin-left: 0.3rem;
+          vertical-align: middle;
           height: 22px;
         }
       }
