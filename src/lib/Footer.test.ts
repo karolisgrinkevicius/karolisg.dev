@@ -23,7 +23,7 @@ describe('Footer', () => {
     const copyright = screen.getByText(mockedYear);
 
     expect(copyright.parentElement?.parentElement).toHaveTextContent(
-      `© ${mockedYear} by Karolis G. Made with ❤️ powered by`
+      `© ${mockedYear} by Karolis G. Made with ❤️`
     );
   });
 
@@ -31,7 +31,7 @@ describe('Footer', () => {
     const link = screen.getByRole('link', { name: 'SvelteKit' });
     const image = within(link).getByAltText('SvelteKit');
 
-    expect(screen.getByText(/powered by/)).toBeInTheDocument();
+    expect(screen.getByText(/Powered by/)).toBeInTheDocument();
     expect(link).toHaveAttribute('href', 'https://svelte.dev/');
     expect(image).toHaveAttribute('src', '/src/lib/assets/icons/sveltekit.svg');
   });

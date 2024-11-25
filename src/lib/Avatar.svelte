@@ -16,4 +16,5 @@
   width={300}
   height={300}
   breakpoints={[180, 300]}
+  title="Karolis Grinkevičius"
 />

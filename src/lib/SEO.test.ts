@@ -40,6 +40,13 @@ describe('SEO', () => {
     });
   });
 
+  it('renders canonical url', () => {
+    expect(document.querySelector(`link[rel="canonical"]`)).toHaveAttribute(
+      'href',
+      'https://www.karolisg.dev'
+    );
+  });
+
   it('renders schema script', () => {
     expect(document.querySelector('script[type="application/ld+json"]')).toHaveTextContent(
       '{ "@context": "https://schema.org", "@type": "Website", "name": "Karolis Grinkevičius | karolisg.dev", "url": "https//karolisg.dev", "logo": /favicon.png}'
