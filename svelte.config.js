@@ -6,7 +6,17 @@ const config = {
   preprocess: [vitePreprocess()],
   kit: {
     adapter: adapterVercel(),
-    inlineStyleThreshold: 1024
+    inlineStyleThreshold: 1024,
+    csp: {
+      directives: {
+        'script-src': ['self', 'unsafe-inline'],
+        'object-src': ['none']
+      },
+      reportOnly: {
+        'script-src': ['self', 'unsafe-inline'],
+        'report-uri': ['/']
+      }
+    }
   }
 };
 
