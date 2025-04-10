@@ -12,20 +12,20 @@ describe('Avatar', () => {
 
     expect(image).toHaveAttribute(
       'src',
-      'https://res.cloudinary.com/dzm0tz8vx/image/upload/w_300,h_300,c_lfill,f_auto/v1731608929/headshot'
+      'https://res.cloudinary.com/dzm0tz8vx/image/upload/w_300,h_300,f_auto,c_lfill/v1731608929/headshot.PNG'
     );
     expect(image).toHaveAttribute(
       'srcset',
       expect.stringContaining(
-        'https://res.cloudinary.com/dzm0tz8vx/image/upload/w_180,h_180,c_lfill,f_auto/v1731608929/headshot 180w'
+        'https://res.cloudinary.com/dzm0tz8vx/image/upload/w_300,h_300,f_auto,c_lfill/v1731608929/headshot.PNG 300w'
       )
     );
     expect(image).toHaveAttribute(
       'srcset',
       expect.stringContaining(
-        'https://res.cloudinary.com/dzm0tz8vx/image/upload/w_300,h_300,c_lfill,f_auto/v1731608929/headshot 300w'
+        'https://res.cloudinary.com/dzm0tz8vx/image/upload/w_600,h_600,f_auto,c_lfill/v1731608929/headshot.PNG 600w'
       )
     );
-    expect(image).toHaveAttribute('sizes', '(min-width: 300px) 300px, 100vw');
+    expect(image).toHaveAttribute('sizes', '(max-width: 991px) 200px, 300px');
   });
 });
