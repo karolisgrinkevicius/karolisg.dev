@@ -6,9 +6,9 @@
 
 <footer>
   <p>
-    <span><span>© <date>{year}</date></span> by Karolis G. Made with <i>❤️</i></span>
     <span>
-      Powered by
+      <span>© <date>{year}</date></span>
+      by Karolis G. Made with
       <a href="https://svelte.dev/" title="SvelteKit">
         <img src={sveltekit} alt="SvelteKit" />
       </a>
@@ -48,12 +48,6 @@
             margin-right: 0.3rem;
           }
         }
-      }
-
-      i {
-        margin-left: 0.4rem;
-        margin-right: 0.4rem;
-        font-style: normal;
       }
 
       a {

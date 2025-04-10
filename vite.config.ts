@@ -8,7 +8,8 @@ export default defineConfig(({ mode }) => ({
       scss: {
         additionalData: `
           @use '$lib/assets/styles/breakpoints' as *;
-        `
+        `,
+        api: 'modern-compiler'
       }
     }
   },

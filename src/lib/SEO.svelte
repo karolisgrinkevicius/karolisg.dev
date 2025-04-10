@@ -1,10 +1,9 @@
 <script lang="ts">
   import { base } from '$app/paths';
+  import { site, siteUrl, fullName } from './configs/meta.json';
 
-  const site = 'karolisg.dev';
-  const siteUrl = `https://www.${site}`;
-  const title = `Karolis Grinkevičius | ${site}`;
-  const description = 'Karolis Grinkevičius Personal Website.';
+  const title = `${fullName} | ${site}`;
+  const description = `${fullName} Personal Website.`;
   const logo = `${base}/favicon.png`;
 </script>
 

@@ -11,7 +11,10 @@ describe('Header', () => {
   });
 
   it('renders logo', () => {
-    expect(screen.getByRole('link', { name: '< karolis g. />' })).toHaveAttribute('href', 'https://www.karolisg.dev');
+    expect(screen.getByRole('link', { name: '< karolis g. />' })).toHaveAttribute(
+      'href',
+      'https://www.karolisg.dev'
+    );
   });
 
   it('renders social icons', () => {

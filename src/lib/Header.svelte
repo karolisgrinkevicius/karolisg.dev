@@ -31,6 +31,7 @@
       list-style: none;
 
       > li:first-of-type > a {
+        font-family: var(--font-family-brand);
         color: var(--color-base);
         border-bottom: none;
         padding-bottom: 0;
@@ -40,16 +41,15 @@
         letter-spacing: -0.15rem;
         text-wrap: nowrap;
 
-        @media (min-width: $breakpoint-tablet) {
-          font-size: 5rem;
-          letter-spacing: -0.3rem;
-        }
-
-        i {
+        > i {
           font-style: normal;
           vertical-align: middle;
         }
 
+        @media (min-width: $breakpoint-tablet) {
+          font-size: 5rem;
+          letter-spacing: -0.3rem;
+        }
         > span:first-of-type {
           margin-right: 1rem;
 

@@ -8,12 +8,19 @@
 
 <style lang="scss">
   :global(:root) {
-    --font-family: 'Oswald Variable', sans-serif;
-    --color-base: #41453f;
+    --font-family: 'Montserrat Variable', sans-serif;
+    --font-family-brand: 'Oswald Variable', sans-serif;
+    --font-weight-bold: 700;
+    --color-base: #2a2d29;
     --color-base-muted: #697067;
     --color-base-light: #d4d8d6;
-    --color-link-default: #0e730e;
-    --color-link-hover: #30af30;
+    --color-link-default: #4f9070;
+    --color-link-hover: #387a59;
+    --color-link-active: #306d4f;
+    --color-button-background: #357154;
+    --color-button-background-hover: #1d6943;
+    --color-button-background-active: #0f4e2f;
+    --color-button-text: #ffffff;
   }
 
   :global(body) {
@@ -28,7 +35,6 @@
     font-style: normal;
     font-size: 24px;
     color: var(--color-base);
-    letter-spacing: -0.05rem;
     line-height: 1.5;
     margin: 0 auto;
     padding: 1rem;
@@ -43,13 +49,14 @@
     display: inline-block;
     color: var(--color-link-default);
     text-decoration: none;
-    border-bottom: 1px solid;
-    border-bottom-color: 1px solid var(--color-link-default);
     padding: 0.2rem;
 
     &:hover {
       color: var(--color-link-hover);
-      border-bottom-color: var(--color-link-hover);
+    }
+
+    &:active {
+      color: var(--color-link-active);
     }
   }
 </style>
